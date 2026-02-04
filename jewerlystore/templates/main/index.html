@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+<div class="text-center mb-5">
+    <h1 class="display-4">Добро пожаловать на наш сайт!</h1>
+    <p class="lead">Это учебный проект на Django для студентов</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Простота</h5>
+                <p class="card-text">Идеально для начала изучения Django</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Практика</h5>
+                <p class="card-text">Реальные примеры и задачи</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Эффективность</h5>
+                <p class="card-text">Быстрый результат и понимание</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

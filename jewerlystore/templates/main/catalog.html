@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}Каталог товаров{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Каталог товаров</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Товар 1">
+            <div class="card-body">
+                <h5 class="card-title">Товар 1</h5>
+                <p class="card-text">Описание товара 1. Отличное качество по доступной цене.</p>
+                <p class="card-text"><strong>Цена: 1000 руб.</strong></p>
+                <button class="btn btn-primary">Подробнее</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Товар 2">
+            <div class="card-body">
+                <h5 class="card-title">Товар 2</h5>
+                <p class="card-text">Описание товара 2. Популярный товар с хорошими отзывами.</p>
+                <p class="card-text"><strong>Цена: 1500 руб.</strong></p>
+                <button class="btn btn-primary">Подробнее</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Товар 3">
+            <div class="card-body">
+                <h5 class="card-title">Товар 3</h5>
+                <p class="card-text">Описание товара 3. Новинка сезона со скидкой.</p>
+                <p class="card-text"><strong>Цена: 2000 руб.</strong></p>
+                <button class="btn btn-primary">Подробнее</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

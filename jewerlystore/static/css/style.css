@@ -1,0 +1,56 @@
+/* Основные стили */
+body {
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Стили для навигации */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin: 0 10px;
+}
+
+/* Стили для карточек */
+.card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Стили для футера */
+footer {
+    margin-top: auto;
+}
+
+/* Дополнительные стили */
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
